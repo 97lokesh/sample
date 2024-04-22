@@ -1,0 +1,32 @@
+HTTP;
+       *HTTP stands for hypertext transfer protocols and is used to client server communication.
+       *HTTP user sends the request to the server and server sends response to the user.
+       *There are several stages of HTTP development and we will focus mainly HTTP1.1 which was created in 1997 and HTTP2 which was created in 2015.
+
+
+                                        HTTP1.1
+                                           
+*It works on the textual format
+*There is head of line blocking that blocks all the request behind until it doesn’t get its all resources
+*It uses request resources inlining for use getting multiple pages
+*It compresses data by itself
+                                    HTTP2
+*It works on the binary protocol
+*It allows multiplexing to one TCP connection is required for multiple requests
+*It uses push frame by server that collects all multiple pages 
+*It uses H PACK for data compression
+       
+
+                                              OBJECTS AND ITS INTERNAL REPRESENTATION
+*Object are important data types in java script. Object are different than primitive data types (I,e, number,string,Boolean,etc.).
+
+*Primitive data type contain only one value but object data type contain many values in form of key;value pair.
+
+*These keys can be variables or functions are called properties and methods,in the context of object.
+
+*Internally, objects are stored as a collection of key-value pairs, where the keys are the property names and the values can be data or references to functions.
+
+*When you access an object’s property or method, JavaScript searches for the property name in the object’s internal collection of key-value pairs.
+
+
+
