@@ -5,12 +5,16 @@ HTTP;
 
 
                                         HTTP1.1
-                                           
+*Developed by Timothy Berners-Lee in 1989 as a communication standard for the World Wide Web, HTTP is a top-level application protocol that exchanges information between a client computer and a local or remote web server. 
+*In this process, a client sends a text-based request to a server by calling a method like GET or POST. In response, the server sends a resource like an HTML page back to the client.
 *It works on the textual format
-*There is head of line blocking that blocks all the request behind until it doesn’t get its all resources
+*There is head of line blocking that blocks all the request behind until it doesnâ€™t get its all resources
 *It uses request resources inlining for use getting multiple pages
 *It compresses data by itself
-                                    HTTP2
+
+                                       HTTP2
+*HTTP/2 began as the SPDY protocol, developed primarily at Google with the intention of reducing web page load latency by using techniques such as compression, multiplexing, and prioritization
+*This protocol served as a template for HTTP/2 when the Hypertext Transfer Protocol working group httpbis of the IETF (Internet Engineering Task Force) put the standard together, culminating in the publication of HTTP/2 in May 2015
 *It works on the binary protocol
 *It allows multiplexing to one TCP connection is required for multiple requests
 *It uses push frame by server that collects all multiple pages 
@@ -26,7 +30,7 @@ HTTP;
 
 *Internally, objects are stored as a collection of key-value pairs, where the keys are the property names and the values can be data or references to functions.
 
-*When you access an object’s property or method, JavaScript searches for the property name in the object’s internal collection of key-value pairs.
+*When you access an objectâ€™s property or method, JavaScript searches for the property name in the objectâ€™s internal collection of key-value pairs.
 
 
 
